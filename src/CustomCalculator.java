@@ -20,7 +20,8 @@ public class CustomCalculator {
                 break; // Exit loop if calculation is successful
 
             } catch (Exception e) {
-                System.out.println("Error: " + e.getMessage() // Clear the scanner buffer after each iteration
+                System.out.println("Error: " + e.getMessage());
+                scanner.nextLine(); // Clear the scanner buffer
             }
         }
 

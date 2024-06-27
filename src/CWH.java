@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 class Thread1 extends Thread{
     public void run(){
-        System.out.println("Welcome");
+        System.out.println("Welcome dear");
     }
 }
 class Thread2 extends Thread {
